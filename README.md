@@ -75,7 +75,7 @@ As principais bibliotecas utilizadas neste projeto são:
 - xgboost
 - joblib
   
-Todas as dependências estão listadas no arquivo requirements.txt.
+Todas as dependências estão listadas no arquivo `requirements.txt`.
 
 ### **Estrutura de Pastas:**
 
