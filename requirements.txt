@@ -1,0 +1,16 @@
+pandas>=1.5.2  # Stable and comprehensive data analysis library
+numpy>=1.23.5  # Fundamental numerical computing library
+seaborn>=0.12.1  # Statistical data visualization built on Matplotlib
+matplotlib>=3.6.2  # Versatile plotting library
+termcolor>=2.0.1  # Colorful terminal output for better readability
+re>=3.8  # Built-in regular expression engine
+os>=3.11.0  # Operating system interaction (included in Python)
+collections>=3.11.0  # Built-in container datatypes (included in Python)
+wordcloud>=1.3.0  # Word cloud generation for text data visualization
+scikit-learn>=1.2.0  # Machine learning toolkit with train_test_split, mean_squared_error, mean_absolute_error, r2_score
+lightgbm>=3.5.2  # Fast, distributed, high-performance gradient boosting framework (LGBMRegressor)
+catboost>=1.2.0  # Gradient boosting library with focus on speed and accuracy (CatBoostRegressor)
+sklearn.linear_model>=1.2.0  # Linear regression models (LinearRegression)
+sklearn.ensemble>=1.2.0  # Ensemble methods like Random Forests (RandomForestRegressor)
+xgboost>=1.7.0  # Scalable and flexible extreme gradient boosting (XGBRegressor)
+joblib>=1.4.1  # Efficient data persistence for machine learning pipelines
