@@ -62,23 +62,17 @@ jupyter notebook
 2 - Execute o Script Python
 
 ### **Dependências**
-As bibliotecas utilizadas neste projeto são:
+As principais bibliotecas utilizadas neste projeto são:
 
 - pandas
 - numpy
 - seaborn
 - matplotlib
 - termcolor
-- re
-- os
-- collections
-- wordcloud
-- scikit-learn (train_test_split, mean_squared_error, mean_absolute_error, r2_score)
-- lightgbm (LGBMRegressor)
-- catboost (CatBoostRegressor)
-- sklearn.linear_model (LinearRegression)
-- sklearn.ensemble (RandomForestRegressor)
-- xgboost (XGBRegressor)
+- scikit-learn
+- lightgbm
+- catboost
+- xgboost
 - joblib
   
 Todas as dependências estão listadas no arquivo requirements.txt.
@@ -86,7 +80,7 @@ Todas as dependências estão listadas no arquivo requirements.txt.
 ### **Estrutura de Pastas:**
 
 - `data/`: Contém os arquivos:
-  - `desafio_indicium_imdb.csv`: Arquivo principal de dados.
+  - `desafio_indicium_imdb.csv`: Base de dados.
   - `[Lighthouse] Desafio Ciência de Dados 2024-9.pdf`: Documento relacionado ao desafio de Ciência de Dados.
 - `image/`: Figuras geradas durante a análise, como nuvens de palavras.
 - `models/`: Modelos de regressão automaticamente salvos. Se a pasta não existir, crie manualmente para evitar erros nos passos seguintes do código.
